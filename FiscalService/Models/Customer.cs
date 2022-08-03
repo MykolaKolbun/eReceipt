@@ -1,9 +1,14 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace FiscalService.Models
 {
-    class Customer
+    public class Customer
     {
+        [Key]
+        [Required]
         public int Id { get; set; }
 
+        [Required]
         public string? Name { get; set; }
 
         public int CertificateId { get; set; }

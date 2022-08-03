@@ -1,3 +1,6 @@
+using FiscalService;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +10,26 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+bool isProduction = true;
+
+
+if (isProduction)
+{
+
+    Console.WriteLine("--> Using SQL Server DB");
+    IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("appsettings.Production.json").Build();
+    Console.WriteLine($"Connection string: {configuration["ConnectionString:PlatformsConn"]}");
+    builder.Services.AddDbContext<AppDbContext>(opt =>
+        opt.UseSqlServer(configuration["ConnectionString:PlatformsConn"]));
+}
+else
+{
+    Console.WriteLine("--> Using InMem DB");
+    IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("appsettings.Development.json").Build();
+    builder.Services.AddDbContext<AppDbContext>(opt => 
+        opt.UseInMemoryDatabase("InMem")); 
+}
+// added from video
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

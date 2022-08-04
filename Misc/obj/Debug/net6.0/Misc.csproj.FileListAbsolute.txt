@@ -1,0 +1,15 @@
+D:\My Programming\eReceipt\Misc\bin\Debug\net6.0\Misc.exe
+D:\My Programming\eReceipt\Misc\bin\Debug\net6.0\Misc.deps.json
+D:\My Programming\eReceipt\Misc\bin\Debug\net6.0\Misc.runtimeconfig.json
+D:\My Programming\eReceipt\Misc\bin\Debug\net6.0\Misc.dll
+D:\My Programming\eReceipt\Misc\bin\Debug\net6.0\Misc.pdb
+D:\My Programming\eReceipt\Misc\obj\Debug\net6.0\Misc.csproj.AssemblyReference.cache
+D:\My Programming\eReceipt\Misc\obj\Debug\net6.0\Misc.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Programming\eReceipt\Misc\obj\Debug\net6.0\Misc.AssemblyInfoInputs.cache
+D:\My Programming\eReceipt\Misc\obj\Debug\net6.0\Misc.AssemblyInfo.cs
+D:\My Programming\eReceipt\Misc\obj\Debug\net6.0\Misc.csproj.CoreCompileInputs.cache
+D:\My Programming\eReceipt\Misc\obj\Debug\net6.0\Misc.dll
+D:\My Programming\eReceipt\Misc\obj\Debug\net6.0\refint\Misc.dll
+D:\My Programming\eReceipt\Misc\obj\Debug\net6.0\Misc.pdb
+D:\My Programming\eReceipt\Misc\obj\Debug\net6.0\Misc.genruntimeconfig.cache
+D:\My Programming\eReceipt\Misc\obj\Debug\net6.0\ref\Misc.dll

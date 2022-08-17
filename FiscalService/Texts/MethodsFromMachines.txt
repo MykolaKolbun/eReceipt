@@ -1,0 +1,46 @@
+Init();
+
+SaleTransaction(TransactionData (MachineUID, TransactionJsonbis ))
+{
+    TransactionType --> (Type -->       0-Чек реалізації товарів/послуг 100-Відкриття зміни, 101-Закриття зміни, 102-Початок офлайн сесії, 103-Завершення офлайн сесії)
+                        (SubType -->    0-Касовий чек (реалізація), 1-Видатковий чек (повернення), 2-Чек операції «службове внесення»/«отримання авансу», 3-Чек операції «отримання підкріплення», 4–Чек операції «службова видача»/«інкасація»)
+    GetMachineDetails(MachineUID)
+    {
+        Machine(MachineUID) Get From DB
+        {
+            Id; Локальний номер реєстратора розрахункових операцій
+            PointName; Найменування точки продаж
+            PointAddress; Адреса точки продаж
+            MachineFiscalNumber; Фіскальний номер реєстратора розрахункових операцій
+            CustomerId;
+        }
+        Customer(CustomerId) Get From DB
+        {
+            TIN; ЄДРПОУ/ДРФО/№ паспорта продавця (10 символів)
+            INN; Податковий номер або Індивідуальний номер платника ПДВ (12 символів)
+            CustomerName; ТОВ "ФОЗЗІ-ФУД"
+            CustomerFiscalNumber; Фіскальний номер реєстратора розрахункових операцій 
+            CashierName; ПІБ касира
+            CertificateID;
+        };
+        AddItem(Item {Code, Uktzed, Name, Amount, Unit, UnitPrice, TaxId})
+        {
+
+        }
+        
+        AddDiscount()
+        
+        AddPayment(): Payment
+        
+        CloseTransaction()
+    };
+}
+
+
+
+
+
+
+
+
+

@@ -9,9 +9,12 @@ namespace FiscalService.Models
         public int Id { get; set; }
 
         [Required]
-        public string? PublicCertPath { get; set; }
+        public string PublicCertPath { get; set; }
 
         [Required]
-        public string? PrivateCertPath { get; set; }
+        public string PrivateCertPath { get; set; }
+
+        [Required]
+        public string Password { get; set; }
     }
 }

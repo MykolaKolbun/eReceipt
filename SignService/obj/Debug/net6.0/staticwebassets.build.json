@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "aIJkrqPWelh5hK1X8Wf1FTK84OleANFCfWs6KeNrM3c=",
+  "Source": "SignService",
+  "BasePath": "_content/SignService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

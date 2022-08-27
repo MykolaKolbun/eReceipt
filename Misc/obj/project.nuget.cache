@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BX4+IgdJiLvf27XnyIQYRhJMMb1xMOwlqB0RL4Nvq0kxVv3e89eXGyhzhwFahbzOJXgimMHCykMz7RwOwvuliA==",
+  "dgSpecHash": "TV3fPEE+SCDaHjvXm756gJITBr2Xg6mz5pZlkEihz1eEOWl2k5LquHym/DocijpH4nZfsxqOzEuMol3HTRaNrw==",
   "success": true,
-  "projectFilePath": "D:\\My Programming\\eReceipt\\Misc\\Misc.csproj",
+  "projectFilePath": "d:\\My Programming\\eReceipt\\Misc\\Misc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sorrow\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Sorrow\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512"

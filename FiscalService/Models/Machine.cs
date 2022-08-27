@@ -1,19 +1,18 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace FiscalService.Models
+namespace FiscalService.Model
 {
     public class Machine
     {
-        [Key]
-        [Required]
         public int Id { get; set; }
-
-        public string Location { get; set; }
-
         [Required]
-        public int CustomerId { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+
+        public int MachineTypeId { get; set; }
+        public MachineType MachineType { get; set; }
         
-        [Required]
-        public int Type { get; set; }
+        public int CashierId { get; set; }
+        public Cashier Cashier { get; set; }
     }
 }

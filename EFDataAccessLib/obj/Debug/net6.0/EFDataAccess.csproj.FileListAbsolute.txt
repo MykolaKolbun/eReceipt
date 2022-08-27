@@ -1,0 +1,14 @@
+D:\My Programming\eReceipt\EFDataAccessLib\bin\Debug\net6.0\EFDataAccess.deps.json
+D:\My Programming\eReceipt\EFDataAccessLib\bin\Debug\net6.0\EFDataAccess.runtimeconfig.json
+D:\My Programming\eReceipt\EFDataAccessLib\bin\Debug\net6.0\EFDataAccess.dll
+D:\My Programming\eReceipt\EFDataAccessLib\bin\Debug\net6.0\EFDataAccess.pdb
+D:\My Programming\eReceipt\EFDataAccessLib\obj\Debug\net6.0\EFDataAccess.csproj.AssemblyReference.cache
+D:\My Programming\eReceipt\EFDataAccessLib\obj\Debug\net6.0\EFDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Programming\eReceipt\EFDataAccessLib\obj\Debug\net6.0\EFDataAccess.AssemblyInfoInputs.cache
+D:\My Programming\eReceipt\EFDataAccessLib\obj\Debug\net6.0\EFDataAccess.AssemblyInfo.cs
+D:\My Programming\eReceipt\EFDataAccessLib\obj\Debug\net6.0\EFDataAccess.csproj.CoreCompileInputs.cache
+D:\My Programming\eReceipt\EFDataAccessLib\obj\Debug\net6.0\EFDataAccess.dll
+D:\My Programming\eReceipt\EFDataAccessLib\obj\Debug\net6.0\refint\EFDataAccess.dll
+D:\My Programming\eReceipt\EFDataAccessLib\obj\Debug\net6.0\EFDataAccess.pdb
+D:\My Programming\eReceipt\EFDataAccessLib\obj\Debug\net6.0\EFDataAccess.genruntimeconfig.cache
+D:\My Programming\eReceipt\EFDataAccessLib\obj\Debug\net6.0\ref\EFDataAccess.dll

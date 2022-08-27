@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My Programming\\eReceipt\\Misc\\Misc.csproj": {}
+    "d:\\My Programming\\eReceipt\\Misc\\Misc.csproj": {}
   },
   "projects": {
-    "D:\\My Programming\\eReceipt\\Misc\\Misc.csproj": {
+    "d:\\My Programming\\eReceipt\\Misc\\Misc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Programming\\eReceipt\\Misc\\Misc.csproj",
+        "projectUniqueName": "d:\\My Programming\\eReceipt\\Misc\\Misc.csproj",
         "projectName": "Misc",
-        "projectPath": "D:\\My Programming\\eReceipt\\Misc\\Misc.csproj",
+        "projectPath": "d:\\My Programming\\eReceipt\\Misc\\Misc.csproj",
         "packagesPath": "C:\\Users\\Sorrow\\.nuget\\packages\\",
-        "outputPath": "D:\\My Programming\\eReceipt\\Misc\\obj\\",
+        "outputPath": "d:\\My Programming\\eReceipt\\Misc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

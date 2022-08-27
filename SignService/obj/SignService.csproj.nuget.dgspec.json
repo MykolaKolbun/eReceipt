@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My Programming\\eReceipt\\SignService\\SignService.csproj": {}
+    "d:\\My Programming\\eReceipt\\SignService\\SignService.csproj": {}
   },
   "projects": {
-    "D:\\My Programming\\eReceipt\\SignService\\SignService.csproj": {
+    "d:\\My Programming\\eReceipt\\SignService\\SignService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Programming\\eReceipt\\SignService\\SignService.csproj",
+        "projectUniqueName": "d:\\My Programming\\eReceipt\\SignService\\SignService.csproj",
         "projectName": "SignService",
-        "projectPath": "D:\\My Programming\\eReceipt\\SignService\\SignService.csproj",
+        "projectPath": "d:\\My Programming\\eReceipt\\SignService\\SignService.csproj",
         "packagesPath": "C:\\Users\\Sorrow\\.nuget\\packages\\",
-        "outputPath": "D:\\My Programming\\eReceipt\\SignService\\obj\\",
+        "outputPath": "d:\\My Programming\\eReceipt\\SignService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

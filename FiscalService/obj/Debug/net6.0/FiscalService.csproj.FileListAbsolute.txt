@@ -60,3 +60,6 @@ D:\My Programming\eReceipt\FiscalService\obj\Debug\net6.0\refint\FiscalService.d
 D:\My Programming\eReceipt\FiscalService\obj\Debug\net6.0\FiscalService.pdb
 D:\My Programming\eReceipt\FiscalService\obj\Debug\net6.0\FiscalService.genruntimeconfig.cache
 D:\My Programming\eReceipt\FiscalService\obj\Debug\net6.0\ref\FiscalService.dll
+D:\My Programming\eReceipt\FiscalService\bin\Debug\net6.0\appsettings.Production.json
+D:\My Programming\eReceipt\FiscalService\bin\Debug\net6.0\EFDataAccess.dll
+D:\My Programming\eReceipt\FiscalService\bin\Debug\net6.0\EFDataAccess.pdb

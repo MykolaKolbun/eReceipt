@@ -12,8 +12,7 @@
           "Microsoft.EntityFrameworkCore.Design": "6.0.8",
           "Microsoft.EntityFrameworkCore.InMemory": "6.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8",
-          "Swashbuckle.AspNetCore": "6.2.3",
-          "EFDataAccess": "1.0.0.0"
+          "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
           "FiscalService.dll": {}
@@ -488,14 +487,6 @@
             "fileVersion": "4.700.19.56404"
           }
         }
-      },
-      "EFDataAccess/1.0.0.0": {
-        "runtime": {
-          "EFDataAccess.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
       }
     }
   },
@@ -847,11 +838,6 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
-    },
-    "EFDataAccess/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

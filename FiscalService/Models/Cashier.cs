@@ -1,17 +1,17 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace FiscalService.Model
+namespace FiscalService.Models
 {
     public class Cashier
     {
 
         // Scalar Properties ---------------------------------------
         public int Id { get; set; }
-        public string FirstName { get; set; }
+        public string? FirstName { get; set; }
 
         [Required]
         public string LastName { get; set; }
-        public string TIN { get; set; }
+        public string? TIN { get; set; }
 
         // Reference Navigation Property -----------------------------------
         public int CertificateId { get; set; }

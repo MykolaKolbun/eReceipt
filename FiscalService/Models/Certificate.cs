@@ -1,12 +1,20 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace FiscalService.Model
+namespace FiscalService.Models
 {
     public class Certificate
     {
+        [Key]
+        [Required]
         public int Id { get; set; }
-        public string PublicKeyPath { get; set; }
-        public string PrivateKeyPath { get; set; }
-        public string Pass { get; set; }
+
+        [Required]
+        public string? PublicCertPath { get; set; }
+
+        [Required]
+        public string? PrivateCertPath { get; set; }
+
+        [Required]
+        public string? Password { get; set; }
     }
 }

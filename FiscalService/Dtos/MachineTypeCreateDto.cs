@@ -1,8 +1,8 @@
 using System.ComponentModel.DataAnnotations;
-using FiscalService.Model;
+using FiscalService.Models;
 namespace FiscalService.Dtos
 {
-    public class MachineTypecCreateDto
+    public class MachineTypeCreateDto
     {
         [Required]
         public string? Description { get; set; }

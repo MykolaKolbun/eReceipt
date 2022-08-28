@@ -1,4 +1,4 @@
-using FiscalService.Model;
+using FiscalService.Models;
 namespace FiscalService.Dtos
 {
     public class PaymentTypeReadDto

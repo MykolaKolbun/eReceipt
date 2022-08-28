@@ -1,5 +1,5 @@
 using System.ComponentModel.DataAnnotations;
-using FiscalService.Model;
+using FiscalService.Models;
 namespace FiscalService.Dtos
 {
     public class PaymentTypeCreateDto

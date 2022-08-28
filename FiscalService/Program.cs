@@ -1,6 +1,6 @@
-using EFDataAccessLib.DataAccess;
-using FiscalService;
+using FiscalService.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Data.SqlClient;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,25 +10,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-bool isProduction = false;
+var sqlConnBuilder = new SqlConnectionStringBuilder();
+sqlConnBuilder.ConnectionString = builder.Configuration.GetConnectionString("SQLDBConnection");
 
 
-if (isProduction)
-{
+Console.WriteLine("--> Using SQL Server DB");
+// IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("appsettings.Production.json").Build();
+// Console.WriteLine($"Connection string: {configuration["ConnectionString:PlatformsConn"]}");
+builder.Services.AddDbContext<AppDbContext>(opt =>
+    opt.UseSqlServer(sqlConnBuilder.ConnectionString));
 
-    Console.WriteLine("--> Using SQL Server DB");
-    IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("appsettings.Production.json").Build();
-    Console.WriteLine($"Connection string: {configuration["ConnectionString:PlatformsConn"]}");
-    builder.Services.AddDbContext<DataContext>(opt =>
-        opt.UseSqlServer(configuration["ConnectionString:PlatformsConn"]));
-}
-else
-{
-    Console.WriteLine("--> Using InMem DB");
-    IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("appsettings.Development.json").Build();
-    builder.Services.AddDbContext<DataContext>(opt => 
-        opt.UseInMemoryDatabase("InMem")); 
-}
 
 var app = builder.Build();
 

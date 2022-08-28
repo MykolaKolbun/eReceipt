@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CHECK xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CHECKHEAD>
+        <DOCTYPE>0</DOCTYPE>
+        <DOCSUBTYPE>0</DOCSUBTYPE>
+        <VER>1</VER>
+        <UID>1234-qwer-5678-asdf-9101-zxcv</UID>
+        <TIN>12345678</TIN>
+        <ORGNAME>alternatiview.com</ORGNAME>
+        <POINTNAME>Periproptect</POINTNAME>
+        <POINTADR>Baker Str. 21</POINTADR>
+        <ORDERDATE>08082022</ORDERDATE>
+        <ORDERTIME>222210</ORDERTIME>
+        <ORDERNUM>1234</ORDERNUM>
+        <ORDERTAXNUM>789456102</ORDERTAXNUM>
+        <CASHDESKNUM>1</CASHDESKNUM>
+        <CASHREGISTERNUM>134501</CASHREGISTERNUM>
+        <CASHIER>Kolbun M</CASHIER>
+    </CHECKHEAD>
+    <CHECKTOTAL>
+        <TOTALSUM>14</TOTALSUM>
+    </CHECKTOTAL>
+    <CHECKPAY />
+</CHECK>
